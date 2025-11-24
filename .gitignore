@@ -1,0 +1,23 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# --- Data Files (Private) ---
+# Excelファイルは全て除外（経歴書、テンプレート含む）
+*.xlsx
+*.csv
+
+# JSONファイルは個人情報なので除外
+*.json
+
+# ログファイル
+*.log
+
+# --- Tool Output ---
+# 出力フォルダ配下も念のため除外
+005_ToolOutput/
+
+# --- Secrets & Config ---
+config.py
